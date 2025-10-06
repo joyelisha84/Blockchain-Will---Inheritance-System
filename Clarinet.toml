@@ -24,6 +24,10 @@ epoch = 3.1
 path = 'contracts/Will-Registry-System.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.Will-Heartbeat-Monitor]
+path = 'contracts/Will-Heartbeat-Monitor.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
