@@ -1,0 +1,46 @@
+[project]
+name = 'Blockchain-Will-Inheritance-System'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.Blockchain-Will-Inheritance-System]
+path = 'contracts/Blockchain-Will-Inheritance-System.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Will-Dispute-Resolution]
+path = 'contracts/Will-Dispute-Resolution.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Emergency-Will-Recovery]
+path = 'contracts/Emergency-Will-Recovery.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Will-Registry-System]
+path = 'contracts/Will-Registry-System.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.Will-Heartbeat-Monitor]
+path = 'contracts/Will-Heartbeat-Monitor.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.Will-Version-Control]
+path = 'contracts/Will-Version-Control.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
